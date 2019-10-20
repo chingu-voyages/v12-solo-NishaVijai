@@ -21,8 +21,6 @@ export class HeaderTitle extends React.Component {
 						</b>
 					</button>
 				</div>
-
-				<div className="thin-border-line" />
 			</div>
 		);
 	}

@@ -17,7 +17,9 @@ export class Header extends React.Component {
 					<HeaderTitle />
 				</div>
 
-				<div>{/* <HeaderNavigation /> */}</div>
+				<div>
+					<HeaderNavigation />
+				</div>
 			</div>
 		);
 	}

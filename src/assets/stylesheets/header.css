@@ -1,7 +1,7 @@
 /* HeaderTop */
 .header-top-container {
     background-color: black;
-    color: white;
+    color: #fff;
     display: flex;
     font-size: 0.6rem;
     font-weight: 500;
@@ -30,7 +30,6 @@
 
 .header-top-container a:hover {
     color: #E1E1E0;
-    /* font-weight: bold; */
 }
 /* ---------------------- */
 
@@ -55,7 +54,6 @@
 
 .HeaderTitleRight {
     margin-left: auto;
-    /* flex-basis: 100%; */
 }
 
 .HeaderTitleRight button {
@@ -79,4 +77,26 @@
 /* ---------------------- */
 
 /* HeaderNavigation */
+.header-navigation-container {
+    background-color: #fff; 
+}
 
+.header-nav {
+    display: flex;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.nav-container ul {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.nav-container li {
+    padding: 0 10px;   
+}
+
+.nav-container a {
+    color: #000;
+    text-decoration: none;
+}
