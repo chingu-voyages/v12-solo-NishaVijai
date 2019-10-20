@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../stylesheets/cloneApp.css';
+import '../../stylesheets/header.css';
 
 import { HeaderTop } from '../HeaderFolder/HeaderTop';
 import { HeaderTitle } from '../HeaderFolder/HeaderTitle';
@@ -9,7 +9,9 @@ export class Header extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>{/* <HeaderTop /> */}</div>
+				<div>
+					<HeaderTop />
+				</div>
 
 				<div>
 					<HeaderTitle />

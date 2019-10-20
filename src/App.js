@@ -3,6 +3,11 @@ import React from 'react';
 // import './App.css';
 
 import { CloneApp } from './assets/components/CloneApp';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faEnvelope, faShoppingBasket);
 class App extends React.Component {
 	render() {
 		return (

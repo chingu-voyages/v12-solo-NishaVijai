@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Karma&display=swap'); */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,4 +8,20 @@
     padding: 0;
 }
 
+body {
+    background-color: #F1F1F1;
+    color: black;
+    font-family: serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
 
+img {
+    /* border: 0; */
+    /* display: block; */
+}
+
+.thin-border-line {
+    color: #D2D2D2;
+}
