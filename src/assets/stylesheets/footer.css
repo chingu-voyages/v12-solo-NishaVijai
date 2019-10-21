@@ -40,6 +40,40 @@
 /* ------------------------------- */
 
 /* FooterSocial */
+.footer-social-container {
+    background-color: #31312F;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
 
+.footer-social-container img {
+    max-width: 250px;
+}
 
+.footer-social-second, .footer-social-third {
+    padding-left: 30px;
+}
 
+.footer-social-second img {
+    max-height: 28px;
+}
+
+.footer-social-third a {
+    color: rgb(117, 117, 115);
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.footer-social-third a:hover {
+    color: rgb(202, 202, 199);
+}
+
+.social-icon {
+    font-size: 1.6rem;
+}
+
+.vertical-line {
+    border-right: 1px solid #5a5a59;
+    padding-right: 40px;
+}

@@ -15,7 +15,9 @@ export class Footer extends React.Component {
 
 				<div>{/* <FooterNavigation /> */}</div>
 
-				<div>{/* <FooterSocial /> */}</div>
+				<div>
+					<FooterSocial />
+				</div>
 			</div>
 		);
 	}
