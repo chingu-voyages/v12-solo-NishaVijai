@@ -15,7 +15,9 @@ export class CloneApp extends React.Component {
 
 				<div>{/* <Main /> */}</div>
 
-				<div>{/* <Footer /> */}</div>
+				<div>
+					<Footer />
+				</div>
 			</div>
 		);
 	}

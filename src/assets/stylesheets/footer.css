@@ -1,0 +1,45 @@
+/* FooterBrev */
+.footerbrev-container {
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.footerbrev-container label {
+    padding-right: 40px;
+}
+
+.footerbrev-container input {
+    border: 1px solid #bdbcbc;
+    border-radius: 5px;
+    margin-right: 20px;
+    max-width: 100%;
+    /* outline: none; */
+    padding: 10px 20px;
+}
+
+.footerbrev-container button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+/* ------------------------------- */
+
+/* FooterNavigation */
+
+
+
+/* ------------------------------- */
+
+/* FooterSocial */
+
+
+
