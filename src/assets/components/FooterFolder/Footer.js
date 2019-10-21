@@ -4,7 +4,6 @@ import '../../stylesheets/footer.css';
 import { FooterBrev } from '../FooterFolder/FooterBrev';
 import { FooterNavigation } from '../FooterFolder/FooterNavigation';
 import { FooterSocial } from '../FooterFolder/FooterSocial';
-
 export class Footer extends React.Component {
 	render() {
 		return (
@@ -13,7 +12,9 @@ export class Footer extends React.Component {
 					<FooterBrev />
 				</div>
 
-				<div>{/* <FooterNavigation /> */}</div>
+				<div>
+					<FooterNavigation />
+				</div>
 
 				<div>
 					<FooterSocial />
