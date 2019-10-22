@@ -6,7 +6,11 @@ export class HeaderTitle extends React.Component {
 			<div className="header-title-container">
 				<div className="HeaderTitleMiddle">
 					<a className="link" href="https://vaersgo.dk/" target="_blank" rel="noopener  noreferrer">
-						<img className="title-logo" src={require('../../../assets/images/logo.png')} alt="" />
+						<img
+							className="title-logo"
+							src={require('../../../assets/images/HeaderTitle/logo.png')}
+							alt=""
+						/>
 					</a>
 				</div>
 

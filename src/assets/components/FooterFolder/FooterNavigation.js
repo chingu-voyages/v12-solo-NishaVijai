@@ -4,7 +4,11 @@ export class FooterNavigation extends React.Component {
 		return (
 			<div className="footer-navigation-container">
 				<div className="footer-navigation-left">
-					<img className="title-logo" src={require('../../../assets/images/footer-logo.png')} alt="" />
+					<img
+						className="title-logo"
+						src={require('../../../assets/images/FooterNavigation/footer-logo.png')}
+						alt=""
+					/>
 					<address>VÆRSGO A/S - Østre Stationsvej 1 - 5000 Odense C</address>
 					<p>
 						Webshop tlf: <a href="tel:+0045 70 27 04 04">70 27 04 04</a>

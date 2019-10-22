@@ -6,13 +6,21 @@ export class FooterSocial extends React.Component {
 		return (
 			<div className="footer-social-container">
 				<div className="footer-social-first">
-					<img className="copyright-image" src={require('../../images/footer-cards.png')} alt="" />
+					<img
+						className="copyright-image"
+						src={require('../../images/FooterSocial/footer-cards.png')}
+						alt=""
+					/>
 				</div>
 
 				<div className="vertical-line" />
 
 				<div className="footer-social-second">
-					<img className="copyright-image" src={require('../../images/footer-e-maerket.png')} alt="" />
+					<img
+						className="copyright-image"
+						src={require('../../images/FooterSocial/footer-e-maerket.png')}
+						alt=""
+					/>
 				</div>
 
 				<div className="vertical-line" />

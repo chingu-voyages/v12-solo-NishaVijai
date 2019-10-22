@@ -1,0 +1,55 @@
+
+
+/* --------------------- */
+
+
+/* --------------------- */
+
+
+/* --------------------- */
+
+
+/* --------------------- */
+
+
+
+
+/* --------------------- */
+
+/* Main marker component */
+.main-marker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-marker-left {
+    background-color: #fff;
+    padding: 50px 0 50px 30px;
+}
+
+.main-marker-left h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.main-marker-left p {
+    font-size: 1.2rem;
+    max-width: 550px;
+}
+
+.main-marker-caps {
+    text-transform: uppercase;
+}
+
+.text-padding-bottom {
+    padding-bottom: 40px;
+}
+
+.main-marker-link {
+    color: rgb(156, 138, 138);
+    text-decoration: none;
+}
+
+/* --------------------- */
