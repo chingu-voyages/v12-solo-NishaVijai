@@ -53,3 +53,16 @@
 }
 
 /* --------------------- */
+
+/* Main Pink container */
+.main-pink-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+}
+
+.white-background {
+    background-color: #fff;
+    padding: 30px;
+}

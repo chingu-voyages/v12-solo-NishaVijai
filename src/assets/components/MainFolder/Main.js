@@ -26,7 +26,9 @@ export class Main extends React.Component {
 					<MainMarker />
 				</div>
 
-				<div>{/* <MainPink /> */}</div>
+				<div>
+					<MainPink />
+				</div>
 			</div>
 		);
 	}
