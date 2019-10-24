@@ -7,9 +7,44 @@
 
 /* --------------------- */
 
+/* Main Pic Three container */
+.main-grid-three-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
 
 /* --------------------- */
 
+/* Main Mere container */
+.main-single-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 40px;
+}
+
+.main-single-grid-text {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.main-single-grid-text a {
+    color: #c43b5f;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.main-single-grid-text a:hover {
+    text-decoration: underline;
+}
 
 /* --------------------- */
 
@@ -59,7 +94,7 @@
 
 /* --------------------- */
 
-/* Main Pink container */
+/* Main Pink container & Main Pic Two container*/
 .main-grid-container {
     display: grid;
     gap: 20px;
