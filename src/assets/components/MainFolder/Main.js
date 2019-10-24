@@ -12,7 +12,9 @@ export class Main extends React.Component {
 	render() {
 		return (
 			<div>
-				<div>{/* <MainForside /> */}</div>
+				<div>
+					<MainForside />
+				</div>
 
 				<div>
 					<MainPicTwo />
