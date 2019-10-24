@@ -29,7 +29,9 @@ export class Main extends React.Component {
 					<MainMere />
 				</div>
 
-				<div>{/* <MainPicScroll /> */}</div>
+				<div>
+					<MainPicScroll />
+				</div>
 
 				<div>{/* <MainPicCollection /> */}</div>
 
