@@ -8,13 +8,49 @@
 /* --------------------- */
 
 /* Main Pic Three container */
-.main-grid-three-container {
+.main-pic-three-images {
     display: grid;
-    gap: 20px;
+    gap: 25px;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 40px;
+    text-align: center;
 }
 
+.main-pic-three-images li {
+    background-color: #fff;
+    color: #2F2F2F;
+}
 
+.three-grid-image-text {
+    padding: 20px 0;
+}
+
+.three-grid-image-text h2 {
+    font-size: 2.5rem;
+}
+
+.three-grid-image-text h4 {
+    font-size: 1.9rem;
+    padding-bottom: 50px;
+}
+
+.three-grid-image-text p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.three-grid-image-text h4, .three-grid-image-text p {
+    color: #878787;
+}
+
+.three-grid-image-text button {
+    background-color: #CA2550;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 /* --------------------- */
 
@@ -49,7 +85,7 @@
 /* --------------------- */
 
 
-/* --------------------- */
+
 
 
 
