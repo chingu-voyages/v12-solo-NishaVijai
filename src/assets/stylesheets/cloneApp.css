@@ -16,6 +16,12 @@ body {
     line-height: 1.6;
 }
 
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
 .thin-border-line {
     border: 0.5px solid #bdbcbc;
 }
