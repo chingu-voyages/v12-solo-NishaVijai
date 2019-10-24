@@ -14,7 +14,9 @@ export class Main extends React.Component {
 			<div>
 				<div>{/* <MainForside /> */}</div>
 
-				<div>{/* <MainPicTwo /> */}</div>
+				<div>
+					<MainPicTwo />
+				</div>
 
 				<div>{/* <MainPicThree /> */}</div>
 

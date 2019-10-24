@@ -55,7 +55,7 @@
 /* --------------------- */
 
 /* Main Pink container */
-.main-pink-container {
+.main-grid-container {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);

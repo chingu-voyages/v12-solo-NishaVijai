@@ -3,7 +3,7 @@ import React from 'react';
 export class MainPink extends React.Component {
 	render() {
 		return (
-			<div className="main-pink-container">
+			<div className="main-grid-container">
 				<div className="main-pink-left white-background">
 					<a
 						className="link"
