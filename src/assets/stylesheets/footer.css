@@ -37,7 +37,9 @@
 .footer-navigation-container {
     background-color: #000;
     color: #fff;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 60px;
 }
 

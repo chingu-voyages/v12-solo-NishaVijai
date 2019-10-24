@@ -6,7 +6,7 @@ export class HeaderNavigation extends React.Component {
 				<div className="thin-border-line" />
 				<div className="header-nav">
 					<nav className="nav-container">
-						<ul>
+						<ul className="nav-container-grid">
 							<li>
 								<a
 									className="header-nav-link"
