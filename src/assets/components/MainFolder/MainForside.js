@@ -1,5 +1,7 @@
 import React from 'react';
+// import React, { Suspense } from 'react';
 
+// const LazyLoadForside = React.lazy(() => import('./ForsideImage'));
 export class MainForside extends React.Component {
 	render() {
 		return (
@@ -9,6 +11,9 @@ export class MainForside extends React.Component {
 				</div>
 
 				<div className="main-forside-pic">
+					{/* <Suspense fallback="Loading...">
+						<LazyLoadForside />
+					</Suspense> */}
 					<a
 						className="link"
 						href="https://vaersgo.dk/spar_paa_jul"
