@@ -8,10 +8,12 @@
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "@fortawesome/react-fontawesome": "^0.1.7",
+    "lazysizes": "^5.1.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-loadable": "^5.5.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "yall-js": "^3.1.6"
   },
   "scripts": {
     "start": "react-scripts start",
