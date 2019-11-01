@@ -10,7 +10,7 @@ export class FooterNavigation extends React.Component {
 						alt=""
 					/>
 					<address>VÆRSGO A/S - Østre Stationsvej 1 - 5000 Odense C</address>
-					<p>
+					<p className="a-no-underline">
 						Webshop tlf: <a href="tel:+0045 70 27 04 04">70 27 04 04</a>
 					</p>
 					<p>CVR: 38 83 38 98</p>
