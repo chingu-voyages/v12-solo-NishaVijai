@@ -51,9 +51,6 @@ export class FooterSocial extends React.Component {
 					>
 						<FontAwesomeIcon className="social-icon" icon={Icons.faInstagram} />
 					</a>
-					{/* <label>
-						<FontAwesomeIcon icon={Icons.faFacebook} color="#6DB65B" size="sm" /> Username
-					</label> */}
 				</div>
 			</div>
 		);
