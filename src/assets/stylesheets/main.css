@@ -6,7 +6,6 @@
 }
 
 /* --------------------- */
-
 /* Main Pic Three container */
 .main-pic-three-images {
     display: grid;
@@ -53,7 +52,6 @@
 }
 
 /* --------------------- */
-
 /* Main Mere container */
 .main-single-grid-container {
     display: grid;
@@ -83,16 +81,13 @@
 }
 
 /* --------------------- */
-
-/* MainPicScroll Container */
 /* SlideShow container */
-
 .slide-container {
     /* background: #000; */
     height: 100%;
     max-width: 100%;
-    /* margin: auto; */
     margin-bottom: -10px;
+    padding-top: 20px;
 }
 
 .each-slide > div {
@@ -101,7 +96,6 @@
 }
 
 /* --------------------- */
-
 /* Main marker component */
 .main-marker-container {
     display: grid;
@@ -139,7 +133,6 @@
 }
 
 /* --------------------- */
-
 /* Main Pink container & Main Pic Two container*/
 .main-grid-container {
     display: grid;
