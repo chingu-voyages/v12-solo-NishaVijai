@@ -132,6 +132,20 @@
     text-decoration: none;
 }
 
+.main-marker-right {
+    background: #000;
+}
+
+.marker-slide-container {
+    padding: 60px 30px;
+}
+
+.marker-slide-container img{
+    height: 290px;
+    width: 590px;
+    margin-left: 20px;
+}
+
 /* --------------------- */
 /* Main Pink container & Main Pic Two container*/
 .main-grid-container {

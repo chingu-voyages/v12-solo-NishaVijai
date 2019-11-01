@@ -1,7 +1,17 @@
 import React from 'react';
-
+import { Slide } from 'react-slideshow-image';
 export class MainMarker extends React.Component {
 	render() {
+		const properties = {
+			duration: 5000,
+			transitionDuration: 500,
+			infinite: true,
+			indicators: true,
+			arrows: true,
+			onChange: (oldIndex, newIndex) => {
+				console.log(`slide transition from ${oldIndex} to ${newIndex}`);
+			}
+		};
 		return (
 			<div className="main-marker-container">
 				<div className="main-marker-left">
@@ -27,14 +37,69 @@ export class MainMarker extends React.Component {
 					</p>
 				</div>
 
-				<div className="main-marker-left">
-					<a className="link" href="https://vaersgo.dk/maerker" target="_blank" rel="noopener  noreferrer">
-						<img
-							className="title-logo"
-							src={require('../../../assets/images/MainMarker/brands.jpg')}
-							alt=""
-						/>
-					</a>
+				<div className="main-marker-right">
+					<div className="marker-slide-container">
+						<Slide {...properties}>
+							<div className="each-marker-slide">
+								<a
+									className="link"
+									href="https://vaersgo.dk/maerker"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img
+										className="title-logo"
+										src={require('../../../assets/images/MainMarker/brands.jpg')}
+										alt=""
+									/>
+								</a>
+							</div>
+
+							<div className="each-marker-slide">
+								<a
+									className="link"
+									href="https://vaersgo.dk/maerker"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img
+										className="title-logo"
+										src={require('../../../assets/images/MainMarker/brands1_a.jpg')}
+										alt=""
+									/>
+								</a>
+							</div>
+
+							<div className="each-marker-slide">
+								<a
+									className="link"
+									href="https://vaersgo.dk/maerker"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img
+										className="title-logo"
+										src={require('../../../assets/images/MainMarker/brands2_a.jpg')}
+										alt=""
+									/>
+								</a>
+							</div>
+							<div className="each-marker-slide">
+								<a
+									className="link"
+									href="https://vaersgo.dk/maerker"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img
+										className="title-logo"
+										src={require('../../../assets/images/MainMarker/brands3_a.jpg')}
+										alt=""
+									/>
+								</a>
+							</div>
+						</Slide>
+					</div>
 				</div>
 			</div>
 		);
