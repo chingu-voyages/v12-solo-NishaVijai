@@ -17,11 +17,11 @@
 
 .main-pic-three-images li {
     background-color: #fff;
-    color: #2F2F2F;
+    padding: 10px;
 }
 
 .three-grid-image-text {
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 .three-grid-image-text h2 {
@@ -29,17 +29,17 @@
 }
 
 .three-grid-image-text h4 {
-    font-size: 1.9rem;
+    color: rgb(63, 62, 62);
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: capitalize;
     padding-bottom: 50px;
 }
 
 .three-grid-image-text p {
+    color: #878787;
     font-size: 1rem;
     padding-bottom: 10px;
-}
-
-.three-grid-image-text h4, .three-grid-image-text p {
-    color: #878787;
 }
 
 .three-grid-image-text button {
@@ -49,6 +49,20 @@
     padding: 10px 30px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+.three-grid-image a::before {
+    align-items: center;
+    background: #D92F5C;
+    border-radius: 50px;
+    color: #fff;
+    content: "SPAR 20%";
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    float: right;
+    height: 100px;
+    width: 100px;
 }
 
 /* --------------------- */

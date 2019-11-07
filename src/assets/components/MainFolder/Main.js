@@ -4,7 +4,6 @@ import '../../stylesheets/main.css';
 import { MainForside } from '../MainFolder/MainForside';
 import { MainPicTwo } from '../MainFolder/MainPicTwo';
 import { MainPicThree } from '../MainFolder/MainPicThree';
-import { MainMere } from '../MainFolder/MainMere';
 import { SlideShow } from '../MainFolder/SlideShow';
 import { MainPicCollection } from '../MainFolder/MainPicCollection';
 import { MainMarker } from '../MainFolder/MainMarker';
@@ -25,8 +24,6 @@ export class Main extends React.Component {
 				<div>
 					<MainPicThree />
 				</div>
-
-				<div>{/* <MainMere /> */}</div>
 
 				<div>
 					<SlideShow />

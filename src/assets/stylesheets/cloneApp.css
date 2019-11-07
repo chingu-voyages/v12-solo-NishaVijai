@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap'); */
 
 * {
     box-sizing: border-box;
@@ -9,9 +9,9 @@
 
 body {
     background-color: #F1F1F1;
-    /* font-family: serif, Arial; */
-    font-family: 'Fira Mono', monospace;
-    /* font-weight: bold; */
+    font-family: serif, Arial;
+    /* font-family: 'Fira Mono', monospace; */
+    font-weight: bold;
     line-height: 1.6;
 }
 
