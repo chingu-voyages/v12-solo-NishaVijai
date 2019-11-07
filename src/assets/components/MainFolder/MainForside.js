@@ -1,4 +1,5 @@
 import React from 'react';
+import { MainMere } from '../MainFolder/MainMere';
 
 import 'lazysizes';
 // import a plugin
@@ -13,18 +14,14 @@ export class MainForside extends React.Component {
 			<div className="main-forside-container">
 				<div className="main-forside-text">
 					<p>Forside</p>
+					<MainMere />
 				</div>
 
 				<div className="main-forside-pic">
 					{/* <Suspense fallback="Loading...">
 						<LazyLoadForside />
 					</Suspense> */}
-					<a
-						className="link"
-						href="https://vaersgo.dk/spar_paa_jul"
-						target="_blank"
-						rel="noopener  noreferrer"
-					>
+					<a className="link" href="https://vaersgo.dk/tilbud" target="_blank" rel="noopener  noreferrer">
 						{/* <img
 							class="lazy"
 							src="placeholder.jpg"
@@ -40,7 +37,7 @@ export class MainForside extends React.Component {
 							class="lazyload"
 							src="https://media.giphy.com/media/52qtwCtj9OLTi/giphy.gif"
 							data-sizes="auto"
-							data-src={require('../../../assets/images/MainForside/julepynt_prc_.jpg')}
+							data-src={require('../../../assets/images/MainForside/20_prc_paa_alt_banner_1.jpg')}
 							alt=""
 						/>
 						{/* <img

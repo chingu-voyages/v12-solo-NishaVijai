@@ -9,6 +9,7 @@ import { SlideShow } from '../MainFolder/SlideShow';
 import { MainPicCollection } from '../MainFolder/MainPicCollection';
 import { MainMarker } from '../MainFolder/MainMarker';
 import { MainPink } from '../MainFolder/MainPink';
+import { MainJulepynt } from '../MainFolder/MainJulepynt';
 export class Main extends React.Component {
 	render() {
 		return (
@@ -25,9 +26,7 @@ export class Main extends React.Component {
 					<MainPicThree />
 				</div>
 
-				<div>
-					<MainMere />
-				</div>
+				<div>{/* <MainMere /> */}</div>
 
 				<div>
 					<SlideShow />
@@ -35,12 +34,12 @@ export class Main extends React.Component {
 
 				<div>{/* <MainPicCollection /> */}</div>
 
-				<div>
-					<MainMarker />
-				</div>
+				<div>{/* <MainMarker /> */}</div>
+
+				<div>{/* <MainPink /> */}</div>
 
 				<div>
-					<MainPink />
+					<MainJulepynt />
 				</div>
 			</div>
 		);

@@ -15,30 +15,30 @@ export class MainPicTwo extends React.Component {
 				</div>
 
 				<div className="main-pic-two-right white-background">
-					<a className="link" href="https://vaersgo.dk/gavekort" target="_blank" rel="noopener  noreferrer">
+					<a className="link" href="https://vaersgo.dk/tilbud" target="_blank" rel="noopener  noreferrer">
 						<img
 							className="black-image"
-							src={require('../../../assets/images/MainPicTwo/Koeb_gavekort_567x63.jpg')}
+							src={require('../../../assets/images/MainPicTwo/Se_tilbud_sort.jpg')}
 							alt=""
 						/>
 					</a>
 				</div>
 
 				<div className="main-pic-two-left white-background">
-					<a className="link" href="https://vaersgo.dk" target="_blank" rel="noopener  noreferrer">
+					<a className="link" href="https://vaersgo.dk/koekken" target="_blank" rel="noopener  noreferrer">
 						<img
 							className="prod-image"
-							src={require('../../../assets/images/MainPicTwo/desig_letters.jpg')}
+							src={require('../../../assets/images/MainPicTwo/k_kken.jpg')}
 							alt=""
 						/>
 					</a>
 				</div>
 
 				<div className="main-pic-two-right white-background">
-					<a className="link" href="https://vaersgo.dk" target="_blank" rel="noopener  noreferrer">
+					<a className="link" href="https://vaersgo.dk/sengogbad" target="_blank" rel="noopener  noreferrer">
 						<img
 							className="prod-image"
-							src={require('../../../assets/images/MainPicTwo/Grod_broste.jpg')}
+							src={require('../../../assets/images/MainPicTwo/Seng_og_bad.jpg')}
 							alt=""
 						/>
 					</a>
