@@ -8,7 +8,7 @@ export class HeaderTitle extends React.Component {
 					<a className="link" href="https://vaersgo.dk/" target="_blank" rel="noopener  noreferrer">
 						<img
 							className="title-logo"
-							src={require('../../../assets/images/HeaderTitle/logo.png')}
+							src={require('../../../assets/images/Header/HeaderTitle/logo.png')}
 							alt=""
 						/>
 					</a>

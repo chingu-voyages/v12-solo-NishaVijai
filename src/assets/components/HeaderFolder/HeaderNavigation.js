@@ -1,4 +1,6 @@
 import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import faSearch from '@fortawesome/free-solid-svg-icons';
 export class HeaderNavigation extends React.Component {
 	render() {
 		return (
@@ -101,7 +103,12 @@ export class HeaderNavigation extends React.Component {
 					</nav>
 
 					<div className="nav-search">
-						<label for="search">søg:</label>
+						{/* <label for="search">søg:</label> */}
+						<input className="search-bar" type="text" placeholder="Søg efter produkter" />
+						{/* <img
+							src={require('../../../assets/images/Header/HeaderNavigation/search-icon.png')}
+							alt=""
+						/> */}
 					</div>
 				</div>
 			</div>
