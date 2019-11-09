@@ -64,6 +64,7 @@
 
 .footer-navigation-right {
     display: flex;
+    float: right;
 }
 
 .footer-navigation-right h5 {
@@ -75,7 +76,7 @@
 }
 
 .footer-navigation-right ul { 
-    padding-right: 50px;  
+    padding-right: 50px;
     padding-top: 10px;
 }
 
@@ -86,7 +87,7 @@
 
 .footer-navigation-right-links a {
     color: #969696;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
     text-decoration: none;
     text-transform: capitalize;

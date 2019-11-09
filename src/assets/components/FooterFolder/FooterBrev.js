@@ -4,9 +4,6 @@ export class FooterBrev extends React.Component {
 	render() {
 		return (
 			<div className="footerbrev-container">
-				{/* <form action="https://vaersgo.dk/newsletter/subscriber/new/" target="_blank" method="post"> */}
-				{/* <div className="footerbrev-container"> */}
-				{/* <label for="newsletter">nyhedsbrev</label> */}
 				<form action="https://vaersgo.dk/newsletter/subscriber/new/" target="_blank" method="post">
 					<div>
 						<label for="newsletter">nyhedsbrev</label>
@@ -42,11 +39,6 @@ export class FooterBrev extends React.Component {
 						</button>
 					</div>
 				</form>
-
-				{/* <button type="sumbit" title="Tilmeld">
-								tilmeld
-							</button> */}
-				{/* </div> */}
 			</div>
 		);
 	}

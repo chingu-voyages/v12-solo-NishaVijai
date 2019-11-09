@@ -15,16 +15,6 @@ export class FooterSocial extends React.Component {
 
 				<div className="vertical-line" />
 
-				{/* <div className="footer-social-second">
-					<img
-						className="copyright-image"
-						src={require('../../images/FooterSocial/footer-e-maerket.png')}
-						alt=""
-					/>
-				</div>
-
-				<div className="vertical-line" /> */}
-
 				<div className="footer-social-third">
 					<a
 						className="pinterest social"
