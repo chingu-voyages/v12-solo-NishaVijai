@@ -6,8 +6,6 @@ import { MainPicTwo } from '../MainFolder/MainPicTwo';
 import { MainPicThree } from '../MainFolder/MainPicThree';
 import { SlideShow } from '../MainFolder/SlideShow';
 import { MainPicCollection } from '../MainFolder/MainPicCollection';
-import { MainMarker } from '../MainFolder/MainMarker';
-import { MainPink } from '../MainFolder/MainPink';
 import { MainJulepynt } from '../MainFolder/MainJulepynt';
 export class Main extends React.Component {
 	render() {
@@ -29,11 +27,9 @@ export class Main extends React.Component {
 					<SlideShow />
 				</div>
 
-				<div>{/* <MainPicCollection /> */}</div>
-
-				<div>{/* <MainMarker /> */}</div>
-
-				<div>{/* <MainPink /> */}</div>
+				<div>
+					<MainPicCollection />
+				</div>
 
 				<div>
 					<MainJulepynt />

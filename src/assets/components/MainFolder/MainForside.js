@@ -2,7 +2,6 @@ import React from 'react';
 import { MainMere } from '../MainFolder/MainMere';
 
 import 'lazysizes';
-// import a plugin
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 // import React, { Suspense } from 'react';

@@ -5,72 +5,16 @@
     padding: 20px;
 }
 
-/* --------------------- */
-/* Main Pic Three container */
-.main-pic-three-images {
-    display: grid;
-    gap: 25px;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 40px;
-    text-align: center;
-}
-
-.main-pic-three-images li {
-    background-color: #fff;
-    padding: 10px;
-}
-
-.three-grid-image-text {
-    padding: 20px 10px;
-}
-
-.three-grid-image-text h2 {
-    font-size: 2.5rem;
-}
-
-.three-grid-image-text h4 {
-    color: rgb(63, 62, 62);
-    font-size: 1.4rem;
-    font-weight: 300;
-    text-transform: capitalize;
-    padding-bottom: 50px;
-}
-
-.three-grid-image-text p {
-    color: #878787;
-    font-size: 1rem;
-    padding-bottom: 10px;
-}
-
-.three-grid-image-text button {
-    background-color: #CA2550;
-    border: none;
-    color: #fff;
-    padding: 10px 30px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.three-grid-image a::before {
-    align-items: center;
-    background: #D92F5C;
-    border-radius: 50px;
-    color: #fff;
-    content: "SPAR 20%";
-    display: flex;
-    font-size: 1.2rem;
-    justify-content: center;
-    float: right;
-    height: 100px;
-    width: 100px;
+.main-forside-text p {
+    padding-left: 20px;
 }
 
 /* --------------------- */
-/* Main Mere container */
+/* Main Mere container & MainJulepynt */
 .main-single-grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 40px;
+    margin: 20px;
 }
 
 .main-single-grid-text {
@@ -81,7 +25,6 @@
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
-    
 }
 
 .main-single-grid-text a {
@@ -94,74 +37,12 @@
     text-decoration: underline;
 }
 
-/* --------------------- */
-/* SlideShow container */
-.slide-container {
-    /* background: #000; */
-    height: 100%;
-    max-width: 100%;
-    margin-bottom: -10px;
-    padding-top: 20px;
-}
-
-.each-slide > div {
-    background-size: cover;
-    height: 400px;
+.main-julepynt {
+    margin: 40px;
 }
 
 /* --------------------- */
-/* Main marker component */
-.main-marker-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.main-marker-left {
-    background-color: #fff;
-    padding: 50px 0 50px 30px;
-}
-
-.main-marker-left h2 {
-    font-size: 2rem;
-    font-weight: 400;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.main-marker-left p {
-    font-size: 1.2rem;
-    max-width: 550px;
-}
-
-.main-marker-caps {
-    text-transform: uppercase;
-}
-
-.text-padding-bottom {
-    padding-bottom: 40px;
-}
-
-.main-marker-link {
-    color: rgb(156, 138, 138);
-    text-decoration: none;
-}
-
-.main-marker-right {
-    background: #000;
-}
-
-.marker-slide-container {
-    padding: 60px 30px;
-}
-
-.marker-slide-container img{
-    height: 290px;
-    width: 590px;
-    margin-left: 20px;
-}
-
-/* --------------------- */
-/* Main Pink container & Main Pic Two container*/
+/* Main Pic Two container */
 .main-grid-container {
     display: grid;
     gap: 20px;
@@ -173,3 +54,100 @@
     background-color: #fff;
     padding: 30px;
 }
+
+/* --------------------- */
+/* Main Pic Three container */
+.main-grid-three-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    margin: 0 40px;
+    text-align: center;
+}
+
+.pic-data-container h2 {
+    font-size: 2.5rem;
+}
+
+.pic-data-container h4 {
+    color: rgb(63, 62, 62);
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-bottom: 50px;
+}
+
+.pic-data-container p,
+.main-pic-collection-list p {
+    color: #878787;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.pic-data-container button,
+.main-pic-collection-list button {
+    background-color: #CA2550;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* --------------------- */
+/* SlideShow container */
+.slide-container {
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.each-slide > div {
+    background-size: cover;
+    height: 400px;
+}
+
+/* --------------------- */
+/* MainPicCollection container */
+.main-pic-collection-grid {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    margin: 20px 40px 0 40px;
+    text-align: center;
+}
+
+.pic-data-container,
+.main-pic-collection-list {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.main-pic-collection-list h4 {
+    color: rgb(63, 62, 62);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.main-pic-collection-list h2 {
+    font-size: 1.7rem;
+}
+
+.spar-button::before {
+    align-items: center;
+    background: #D92F5C;
+    border-radius: 100%;
+    color: #fff;
+    content: "SPAR 20%";
+    display: flex;
+    font-size: 0.8rem;
+    justify-content: center;
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+
+/* --------------------- */

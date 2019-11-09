@@ -6,7 +6,6 @@ import Zwilling from '../../images/MainPicScroll/Zwilling.jpg';
 import RC from '../../images/MainPicScroll/RC.jpg';
 
 import { Slide } from 'react-slideshow-image';
-
 export class SlideShow extends React.Component {
 	render() {
 		const slideImages = [

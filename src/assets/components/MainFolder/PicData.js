@@ -1,19 +1,14 @@
 import React from 'react';
-
-// function based component
-// const picData = (props) => {
-// 	return <p>Price: {props.price} </p>;
-// };
-// export default picData;
-
-// Class-based component
 export class PicData extends React.Component {
 	render() {
 		return (
-			<div>
-				<h4> {this.props.name} </h4>
-				<h2> {this.props.price} </h2>
-				<p>Spar: {this.props.spar} </p>
+			<div className="pic-data-container">
+				<div className="spar-button" />
+				<img src={this.props.picDesc.url} alt="" onClick={() => this.props.picDesc.href} />
+				<h4> {this.props.picDesc.name} </h4>
+				<h2> {this.props.picDesc.price} </h2>
+				<p>Spar: {this.props.picDesc.spar} </p>
+				<button> {this.props.picDesc.buttonText} </button>
 			</div>
 		);
 	}

@@ -1,10 +1,9 @@
 import React from 'react';
-
 export class MainJulepynt extends React.Component {
 	render() {
 		return (
-			<div className="main-single-grid-container white-background">
-				<div className="main-julepynt">
+			<div className="main-single-grid-container white-background main-julepynt">
+				<div>
 					<a
 						className="link"
 						href="https://vaersgo.dk/masser_af_julepynt"
