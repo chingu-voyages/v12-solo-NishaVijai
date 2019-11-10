@@ -46,7 +46,7 @@
 .main-grid-container {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     margin: 40px;
 }
 
@@ -151,3 +151,10 @@
 }
 
 /* --------------------- */
+/* Media Queries */
+@media only screen and (max-width: 770px) {
+    .main-single-grid-text {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
