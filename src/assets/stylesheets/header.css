@@ -74,31 +74,25 @@
 }
 
 .header-nav {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(500px, auto)); */
-    /* grid-template-columns: 1fr minmax(100px, 180px); */
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     font-size: 1rem;
     padding: 20px 30px;
 }
 
 .nav-container ul {
     display: flex;
+    flex-wrap: wrap;
     text-transform: uppercase;
 }
 
 .nav-container li {
-    /* padding: 0 10px; */
     padding: 0 5px;
 }
 
 .nav-container li::after {
-    content: "\25bc";
     content: "\25BE";
-    /* border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg); */
 }
 
 .nav-container a {
@@ -108,5 +102,5 @@
 
 .search-bar {
     font-size: 1rem;
-    padding: 10px;
+    padding: 5px 10px;
 }
