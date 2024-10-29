@@ -4,7 +4,7 @@ Add-project-description-here | Voyage-12 | https://chingu.io/ | https://twitter.
 ## Goal
 - To build a React ⚛️ app
 - Building an online shopping site for home appliances
-- Got inspired by online shopping site from Denmark: https://vaersgo.dk/
+- Got inspired by online shopping site from Denmark: https://www.frederikshavn.net/butik/vaersgo
 
 ## Preview:
 https://vaersgo.netlify.app/
